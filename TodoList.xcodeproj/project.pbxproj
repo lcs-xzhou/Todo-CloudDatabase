@@ -12,6 +12,7 @@
 		2D1B7D842BFCD19100390E54 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 2D1B7D832BFCD19100390E54 /* PostgREST */; };
 		2D1B7D862BFCD19100390E54 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 2D1B7D852BFCD19100390E54 /* Realtime */; };
 		2D1B7D882BFCD19100390E54 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 2D1B7D872BFCD19100390E54 /* Storage */; };
+		2D1B7D8A2BFCD45800390E54 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B7D892BFCD45800390E54 /* Supabase.swift */; };
 		2D2181522BCD7F8F00E11654 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2181512BCD7F8F00E11654 /* TodoListViewModel.swift */; };
 		814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FB2BC41BC500921E4F /* ItemView.swift */; };
 		814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FD2BC41C7800921E4F /* TodoItem.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1B7D892BFCD45800390E54 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 		2D2181512BCD7F8F00E11654 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		814A08FB2BC41BC500921E4F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		814A08FD2BC41C7800921E4F /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		815D9D8C2BC414270050957E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2D1B7D892BFCD45800390E54 /* Supabase.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				815D9D7F2BC413800050957E /* LandingView.swift in Sources */,
+				2D1B7D8A2BFCD45800390E54 /* Supabase.swift in Sources */,
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
 				814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */,
 				815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */,
