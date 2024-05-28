@@ -19,13 +19,4 @@ let secondItem = TodoItem(title: "Finish Computer Science assignment", done: tru
 
 let thirdItem = TodoItem(title: "Go for a run around campus", done: false)
 
-let exampleItems = [
-    
-    firstItem
-    ,
-    secondItem
-    ,
-    thirdItem
-    ,
-    
-]
+let exampleItems = [firstItem, secondItem, thirdItem]
