@@ -67,7 +67,7 @@ struct LandingView: View {
             .navigationTitle("To do")
             // Show the sheet to add a new item
             .sheet(isPresented: $presentingNewItemSheet) {
-                Text("Hello, world!")
+                NewItemView(showsheet: $presentingNewItemSheet)
                     .presentationDetents([.fraction(0.15)])
             }
             // Add a tool bar to the top of the interface
