@@ -60,8 +60,6 @@ struct NewItemView: View {
 #Preview {
     NewItemView(showSheet: .constant(true))
 }
-}
-}
 
 #Preview {
     NewItemView()
